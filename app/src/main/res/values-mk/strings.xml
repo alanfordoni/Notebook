@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Бележник</string>
+
+    <string name="all_notes">Сè</string>
+    <string name="business_notes">Бизнис</string>
+    <string name="personal_notes">Лично</string>
+    <string name="list_name">Список на задачи</string>
+    <string name="exit_message">Притиснете повторно за да излезете од Notepad</string>
+    <string name="calendar">Календар</string>
+
+    <string name="alert_dialog_dearchive">Активирајте</string>
+    <string name="menu_alarm_rings">Должина на алармот</string>
+    <string name="menu_alarm_snooze">Одложете ги алармите</string>
+    <string name="menu_theme">Распоред на позадината</string>
+    <string name="language">Јазик</string>
+    <string name="choose_language">Изберете го вашиот јазик:</string>
+    <string name="about">За тетратката</string>
+    <string name="ok">Добро</string>
+    <string name="trash">Избриши</string>
+    <string name="choose_theme">Изберете тема:</string>
+    <string name="choose_alarm_length">Времетраење на алармот:</string>
+    <string name="choose_snooze_length">Време на одложување на алармот:</string>
+    <string name="alert_dialog_delete">Избриши</string>
+    <string name="alert_dialog_cancel">Вратете</string>
+    <string name="alert_dialog_archive">Архива</string>
+    <string name="archive">Архива</string>
+    <string name="yes">Да</string>
+    <string name="no">Не</string>
+    <string name="cancel">Вратете</string>
+    <string name="choose_days">Изберете денови:</string>
+    <string name="week_days">Денови во неделата</string>
+    <string name="select_time_add_note">Изберете време</string>
+    <string name="delete_note_message">Дали сакате да ја избришете белешката?</string>
+
+    <string name="week_days_warning">Вие не сте избрале работни денови за алармот!</string>
+    <string name="note_created_at">Создадено од:</string>
+    <string name="note_modified_at">Променето:</string>
+    <string name="note">Забелешка</string>
+    <string name="created_at">направи:</string>
+    <string name="created_modified_at">направени / сменети:</string>
+    <string name="bt_savenote">Зачувај</string>
+    <string name="bt_personal">Лично</string>
+    <string name="bt_business">Бизнис</string>
+    <string name="add_note_checkbox_warning">Изберете лична или деловна опција!</string>
+    <string name="add_note_title_warning">Ве молиме внесете наслов</string>
+    <string name="add_note_title_hint">Наслов</string>
+    <string name="alarm_occurrence">Аларм</string>
+    <string name="alarm_off">Исклучено</string>
+    <string name="alarm_weekly">Повторување</string>
+    <string name="alarm_once">За еднаш</string>
+
+    <string name="add_shop_title_hint">Додадете наслов овде</string>
+    <string name="add_item">Додадете ставка</string>
+    <string name="empty_todo_list_message_add">Извинете, списокот е празен. Создадете нова листа.</string>
+    <string name="empty_todo_list_message_save">Списокот е празен, внесете одредени вредности во полињата пред снимањето.</string>
+    <string name="btn_add_item">Додадете ставка</string>
+    <string name="btn_save_items_list">Зачувај</string>
+
+    <string name="title_archive">Архива</string>
+    <string name="archived_items_message">Вратете ја архивираната ставка за да ја промените</string>
+
+    <string name="alarm_dismiss">Отфрли</string>
+
+    <string name="email_label">Е-пошта:</string>
+    <string name="email">beleznik.bal@gmail.com</string>
+    <string name="contact">Контакт:</string>
+    <string name="developer">Развиена од Предраг Шиндлер</string>
+    <string name="version">верзија</string>
+
+    <string name="material_calendar_monday">П</string>
+    <string name="material_calendar_tuesday">В</string>
+    <string name="material_calendar_wednesday">С</string>
+    <string name="material_calendar_thursday">Ч</string>
+    <string name="material_calendar_friday">П</string>
+    <string name="material_calendar_saturday">С</string>
+    <string name="material_calendar_sunday">Н</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="choose_date">Choose date</string>
+    <string name="choose_alarm_type">Ве молиме изберете тип на аларм!</string>
+
+    <string-array name="week_days_names">
+        <item>Недела</item>
+        <item>Понеделник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четврток</item>
+        <item>Петок</item>
+        <item>Сабота</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Англиски</item>
+        <item>Германски</item>
+        <item>Српски</item>
+        <item>Хрватски</item>
+        <item>Македонски</item>
+    </string-array>
+
+    <string-array name="days_short">
+        <item>Нед</item>
+        <item>Пон</item>
+        <item>Вто</item>
+        <item>Сре</item>
+        <item>Чет</item>
+        <item>Пет</item>
+        <item>Саб</item>
+    </string-array>
+
+    <string-array name="alarm_length">
+        <item>15 вто</item>
+        <item>30 вто</item>
+        <item>01 мин</item>
+        <item>03 мин</item>
+        <item>05 мин</item>
+        <item>10 мин</item>
+    </string-array>
+
+    <string-array name="snooze_length">
+        <item>03 мин</item>
+        <item>05 мин</item>
+        <item>10 мин</item>
+        <item>15 мин</item>
+        <item>30 мин</item>
+        <item>60 мин</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>Тема 1</item>
+        <item>Тема 2</item>
+    </string-array>
+
+    <array name="material_calendar_months_array">
+        <item>Јануари</item>
+        <item>Февруари</item>
+        <item>Март</item>
+        <item>Април</item>
+        <item>Мај</item>
+        <item>Јуни</item>
+        <item>Јули</item>
+        <item>Август</item>
+        <item>Септември</item>
+        <item>Октомври</item>
+        <item>Ноември</item>
+        <item>Декември</item>
+    </array>
+</resources>

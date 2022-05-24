@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_main"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@drawable/board_texture999"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:layout_alignParentTop="true"
+        app:title="@string/app_name"
+        app:titleTextAppearance="@style/CustomTextAppearance">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable"
+        android:background="@drawable/woodpanel"
+        android:minHeight="25dp"
+        app:tabSelectedTextColor="@color/colorDarkGray"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorDarkGray"
+        android:layout_below="@id/toolbar"
+        app:tabMinWidth="120dp"
+        app:tabTextAppearance="@style/TabLayoutAppearance"
+        android:elevation="4dp"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tabs"
+        android:paddingTop="2dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</RelativeLayout>

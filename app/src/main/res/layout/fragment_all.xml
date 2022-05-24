@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/all_fragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add_note_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="12dp"
+        android:adjustViewBounds="true"
+        android:alpha="0.75"
+        android:clickable="true"
+        android:elevation="6dp"
+        android:focusable="true"
+        app:backgroundTint="@color/colorBrown"
+        android:src="@drawable/ic_create_white_24dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fab_add_shopping_list"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/fab_add_note_all"
+        android:layout_margin="12dp"
+        android:alpha="0.75"
+        android:elevation="6dp"
+        android:src="@drawable/ic_list_white_24dp"
+        app:backgroundTint="@color/colorBrown"/>
+
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notizbuch</string>
+    <string name="all_notes">Alles</string>
+    <string name="business_notes">Geschäft</string>
+    <string name="personal_notes">Persönlich</string>
+    <string name="list_name">Aufgabenliste</string>
+    <string name="exit_message">Zum Verlassen bitte erneut drücken</string>
+    <string name="calendar">Kalender</string>
+    <string name="alert_dialog_delete">Löschen</string>
+    <string name="alert_dialog_cancel">Stornieren</string>
+    <string name="alert_dialog_archive">Archiv</string>
+    <string name="delete_note_message">Möchten Sie diese Notiz löschen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Stornieren</string>
+    <string name="alert_dialog_dearchive">Aktivieren</string>
+    <string name="choose_snooze_length">Snooze-Länge:</string>
+    <string name="choose_alarm_length">Wählen Sie die Alarmlänge:</string>
+    <string name="menu_alarm_rings">Alarmlänge</string>
+    <string name="menu_alarm_snooze">Snooze-länge</string>
+    <string name="choose_theme">Wähle das Thema:</string>
+    <string name="choose_language">Sprache wählen:</string>
+    <string name="archive">Archiv</string>
+    <string name="language">Sprache</string>
+    <string name="about">Über</string>
+    <string name="trash">Müll</string>
+    <string name="menu_theme">Thema</string>
+    <string name="choose_days">Wähle Tage</string>
+    <string name="select_time_add_note">Zeit wählen</string>
+    <string name="week_days_warning">Sie haben einige Wochentage nicht für den Alarm ausgewählt!</string>
+    <string name="note">Notiz</string>
+    <string name="note_created_at">Hergestellt in:</string>
+    <string name="note_modified_at">Geändert am:</string>
+    <string name="created_at">Hergestellt in:</string>
+    <string name="created_modified_at">hergestellt in/geändert am:</string>
+    <string name="bt_savenote">Sparen</string>
+    <string name="bt_personal">Persönlich</string>
+    <string name="bt_business">Geschäft</string>
+    <string name="add_note_checkbox_warning">Bitte überprüfen Sie die persönliche oder geschäftliche Box!</string>
+    <string name="add_note_title_warning">Bitte fügen Sie einen Titel hinzu</string>
+    <string name="add_note_title_hint">Titel</string>
+    <string name="week_days">Wochentage</string>
+    <string name="alarm_once">Einmal</string>
+    <string name="alarm_weekly">Wöchentlich</string>
+    <string name="alarm_off">Aus</string>
+    <string name="alarm_occurrence">Alarm</string>
+    <string name="add_shop_title_hint">Titel hier einfügen</string>
+    <string name="add_item">Artikel hinzufügen</string>
+    <string name="empty_todo_list_message_add">Entschuldigung, die Liste ist leer. Neue Liste erstellen</string>
+    <string name="empty_todo_list_message_save">Entschuldigung, nichts zu retten</string>
+    <string name="btn_add_item">Artikel hinzufügen</string>
+    <string name="btn_save_items_list">Sparen</string>
+    <string name="title_archive">Archiv</string>
+    <string name="archived_items_message">Bitte stellen Sie das archivierte Element wieder her, um es zu ändern</string>
+    <string name="alarm_dismiss">entlassen</string>
+    <string name="email_label">Email:</string>
+    <string name="email">beleznik.bal@gmail.com</string>
+    <string name="contact">Kontakt:</string>
+    <string name="developer">Entwickelt von Predrag Schindler</string>
+    <string name="version">ausführung</string>
+    <string name="material_calendar_monday">M</string>
+    <string name="material_calendar_tuesday">D</string>
+    <string name="material_calendar_wednesday">M</string>
+    <string name="material_calendar_thursday">D</string>
+    <string name="material_calendar_friday">F</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">S</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="choose_date">Choose date</string>
+    <string name="choose_alarm_type">Bitte Alarmtyp auswählen!</string>
+
+    <string-array name="days_short">
+        <item>Son</item>
+        <item>Mon</item>
+        <item>Die</item>
+        <item>Mit</item>
+        <item>Don</item>
+        <item>Fre</item>
+        <item>Sam</item>
+    </string-array>
+
+    <string-array name="week_days_names">
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Englisch</item>
+        <item>Deutsch</item>
+        <item>Serbisch</item>
+        <item>Kroatisch</item>
+        <item>Mazedonisch</item>
+    </string-array>
+
+    <string-array name="themes">
+        <item>Thema 1</item>
+        <item>Thema 2</item>
+    </string-array>
+
+    <string-array name="alarm_length">
+        <item>15 sek</item>
+        <item>30 sek</item>
+        <item>01 min</item>
+        <item>03 min</item>
+        <item>05 min</item>
+        <item>10 min</item>
+    </string-array>
+
+    <string-array name="snooze_length">
+        <item>03 min</item>
+        <item>05 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>60 min</item>
+    </string-array>
+
+    <array name="material_calendar_months_array">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>März</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Dezember</item>
+    </array>
+</resources>

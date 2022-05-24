@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/todo_list_ll"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:elevation="4dp">
+
+    <CheckBox
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/todo_list_chbox"
+        android:layout_weight="1"
+        android:buttonTint="@color/colorBlack"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/todo_list_tv"
+        android:layout_weight="6"
+        android:textSize="18sp"
+        android:textColor="@color/colorBlack"/>
+
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/todo_list_btn_delete"
+        android:layout_weight="1"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/colorTransparent"/>
+
+</LinearLayout>

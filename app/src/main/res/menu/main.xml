@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/calendar"
+        android:title="@string/calendar"
+        app:showAsAction="always"
+        android:icon="@drawable/calendar_icon"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/menu_language"
+        android:title="@string/language"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_language_white_24dp"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/menu_archive"
+        android:title="@string/archive"
+        app:showAsAction="never"
+        android:orderInCategory="5"/>
+
+    <item
+        android:id="@+id/menu_theme"
+        android:title="@string/menu_theme"
+        app:showAsAction="never"
+        android:orderInCategory="8"/>
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/about"
+        app:showAsAction="never"
+        android:orderInCategory="9"/>
+
+    <item
+        android:id="@+id/menu_alarm_length"
+        android:title="@string/menu_alarm_rings"
+        app:showAsAction="never"
+        android:orderInCategory="10"/>
+
+    <item
+        android:id="@+id/menu_snooze"
+        android:title="@string/menu_alarm_snooze"
+        app:showAsAction="never"
+        android:orderInCategory="11"/>
+
+
+</menu>
